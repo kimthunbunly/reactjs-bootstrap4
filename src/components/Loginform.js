@@ -4,8 +4,7 @@ export default class Home extends React.Component {
   render() {
    return (
      <div className="container">
-      <div className="row">
-        <div className="col-sm">
+        <div className="col-9">
           <form>
               <div className="form-group">
                   <label htmlFor="exampleInputEmail1">Email address</label>
@@ -22,7 +21,6 @@ export default class Home extends React.Component {
               </div>
               <button type="submit" className="btn btn-primary">Submit</button>
           </form>
-        </div>
         </div>
       </div>
     ); } }
