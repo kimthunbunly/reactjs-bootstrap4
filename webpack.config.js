@@ -17,9 +17,16 @@ module.exports = {
         },
       },
       {
+        test: /\.(jpg|png)$/,
+        loader: "url-loader?limit=25000",
+        //loader: 'file?name=[path][name].[ext]',
+        include: path.join(__dirname, 'client')
+      },
+
+      {
         test: /\.css$/,
         use: ['style-loader', 'css-loader']
-      }
+      },
     ]
   },
   plugins: [
