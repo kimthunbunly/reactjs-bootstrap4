@@ -4,13 +4,7 @@ import '../assets/index.css';
 export default class Home extends React.Component {
   render() {
    return (
-     <div className="container">
-        <div className="row">
-          <div className="col-6">
-            <h1>The Company Name Here</h1>
-            <h2>THE SUN COMPANY</h2>
-          </div>
-          <div className="col-6">
+        <div className="col-12">
             <form>
                 <div className="form-group">
                     <label htmlFor="exampleInputEmail1">Email address</label>
@@ -27,7 +21,5 @@ export default class Home extends React.Component {
                 </div>
                 <button type="submit" className="btn btn-primary">Log In</button>
             </form>
-          </div>
         </div>
-      </div>
     ); } }

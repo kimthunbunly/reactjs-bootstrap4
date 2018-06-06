@@ -22,7 +22,7 @@ export default class Contact extends React.Component{
           						<input type="text" className="form-control" id="subject" name="subject" placeholder="Subject" required />
           					</div>
                               <div className="form-group">
-                              <textarea className="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+                              <textarea className="form-control" type="textarea" id="message" placeholder="Message" maxLength="140" rows="7"></textarea>
                                   <span className="help-block"><p id="characterLeft" className="help-block ">You have reached the limit</p></span>
                               </div>
 

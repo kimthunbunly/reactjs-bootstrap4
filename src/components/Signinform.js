@@ -3,8 +3,7 @@ import React from 'react';
 export default class Signin extends React.Component{
   render(){
     return(
-      <div className="container">
-        <form className="form-horizontal">
+        <form className="form-horizontal form-center">
             <div className="row">
                 <div className="col-md-3"></div>
                 <div className="col-md-6">
@@ -77,7 +76,6 @@ export default class Signin extends React.Component{
                 </div>
             </div>
         </form>
-    </div>
 
     );
   }

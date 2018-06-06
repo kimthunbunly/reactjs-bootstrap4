@@ -1,22 +1,45 @@
-.create-text-h1 h1{
+.logo-header {
+    display: block;
+    margin:0px;
+    width: 20vh;
+}
+.wel h1{
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   color: #ffc107;
   font-weight: bold;
   margin: 5vh 0px 5vh 0px;
 }
-.col-6 h1{
-  margin: 3vh 0px 3vh 0px;
+.wel p{
   text-align: center;
-  color: #4caf50;
-}
-.col-6 h2{
-  margin: 3vh 0px 3vh 0px;
-  text-align: center;
-  color: #F7210B;
-  font-family: OldEnglishD;
+  font-size: 20px;
+  color: #141313;
   font-weight: bold;
+  margin: 5vh 0px 5vh 0px;
+  text-transform: capitalize;
 }
+.fa-user-circle-o{
+  font-size: 25px;
+  margin-right: 15px;
+  color: #007b5e;
+}
+.layout-card{
+  background-color: #FFF;
+  height: 60vh;
+}
+.card-group{
+  margin:15px auto auto;
+  width: 80%;
+}
+.card{
+  margin: 5vh 5vh 5vh 5vh;
+}
+.body{
+  background-image: linear-gradient(to right, rgb(255, 195, 113) 0px, rgb(255, 95, 109) 100%);
+    position: relative;
+    background-repeat: repeat-x;
+}
+
 /* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 section {
@@ -103,3 +126,38 @@ section .section-title {
 	margin: 10px 0px 60px;
 	border: 1px solid GREY;
 	}
+  .bg-primary {
+      background-color: #007b5e!important;
+  }
+.form-horizontal.form-center{
+  width: 60%;
+  margin: 0px auto auto;
+}
+.btn-outline-success{
+  width: 150px;
+
+}
+.i-mac{
+  width: 30vh;
+  margin: 0px auto 5vh auto;
+}
+.home{
+  width: 100%;
+  height: 85vh;
+}
+.banner{
+  background-image: linear-gradient(to right, rgb(255, 195, 113) 0px, rgb(255, 95, 109) 100%);
+    position: relative;
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 80vh;
+}
+.col-lg-6{
+text-align: center;
+}
+.col-lg-6 p{
+margin-top: 2vh;
+}
+.card-body{
+  z-index: 99;
+}
