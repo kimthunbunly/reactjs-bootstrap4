@@ -4,8 +4,10 @@ import '../assets/index.css';
 export default class Service extends React.Component{
   render(){
     return(
-            <div className="container">
-                <div className="service">
+              <div className="service">
+                <br/>
+                <div className="container">
+                <br/>
                     <h1>SERVICS</h1>
                     <p>Lorem ipsum dolo sit anet consectur.</p>
                     <div className="row justify-content-md-center">
@@ -34,7 +36,7 @@ export default class Service extends React.Component{
                             <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                         </div>
                     </div>
+                  </div>
                 </div>
-            </div>
 
 ); } }

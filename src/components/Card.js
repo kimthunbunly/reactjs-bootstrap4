@@ -4,40 +4,48 @@ export default class GroupCard extends React.Component{
   render(){
     return(
             <div className="layout-card">
-                <div className="card-group">
-                    <div className="card shadow p-3 mb-5 bg-white rounded">
-                        <img className="card-img-top" src="./src/assets/image/pic.jpg" alt="Card image cap" />
-                        <div className="card-body">
+                    <div className="row justify-content-md-center">
+                        <div className="col-">
+                          <div className="card" style={{width: "18rem"}}>
+                          <img className="card-img-top" src="./src/assets/image/pic.jpg" alt="Card image cap"/>
+                          <div className="card-body">
                             <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                          </div>
+                          </div>
                         </div>
-                    </div>
-                    <div className="card shadow p-3 mb-5 bg-white rounded">
-                        <img className="card-img-top" src="./src/assets/image/pic.jpg" alt="Card image cap" />
-                        <div className="card-body">
+                        <div className="col-">
+                          <div className="card" style={{width: "18rem"}}>
+                          <img className="card-img-top" src="./src/assets/image/pic.jpg" alt="Card image cap"/>
+                          <div className="card-body">
                             <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                          </div>
+                          </div>
                         </div>
-                    </div>
-                    <div className="card shadow p-3 mb-5 bg-white rounded">
-                        <img className="card-img-top" src="./src/assets/image/pic.jpg" alt="Card image cap" />
-                        <div className="card-body">
+                        <div className="col-">
+                          <div className="card" style={{width: "18rem"}}>
+                          <img className="card-img-top" src="./src/assets/image/pic.jpg" alt="Card image cap"/>
+                          <div className="card-body">
                             <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                          </div>
+                          </div>
                         </div>
-                    </div>
-                    <div className="card shadow p-3 mb-5 bg-white rounded">
-                        <img className="card-img-top" src="./src/assets/image/pic.jpg" alt="Card image cap" />
-                        <div className="card-body">
+                        <div className="col-">
+                          <div className="card" style={{width: "18rem"}}>
+                          <img className="card-img-top" src="./src/assets/image/pic.jpg" alt="Card image cap"/>
+                          <div className="card-body">
                             <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                          </div>
+                          </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
 ); } }

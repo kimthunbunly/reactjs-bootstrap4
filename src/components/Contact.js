@@ -5,20 +5,13 @@ export default class Contact extends React.Component{
   render(){
     return(
                       <div className="contact">
-                          <div className="container">
-
+                        <div className="container">
                               <div className="row">
-
                                   <div className="col-lg-8 col-lg-offset-2">
-
                                       <h1>Contact from </h1>
-
                                       <form id="contact-form" method="post" action="contact.php" role="form" noValidate="true">
-
                                           <div className="messages"></div>
-
                                           <div className="controls">
-
                                               <div className="row">
                                                   <div className="col-md-6">
                                                       <div className="form-group has-error has-danger">
@@ -79,15 +72,10 @@ export default class Contact extends React.Component{
                                                       <input type="button" className="btn btn-success btn-send" value="Send message" />
                                                   </div>
                                               </div>
-
                                           </div>
-
                                       </form>
-
                                   </div>
-
                               </div>
-
-                          </div>
+                            </div>
                       </div>
 ); } }

@@ -4,7 +4,6 @@ import '../assets/index.css';
 export default class Footer extends React.Component{
   render(){
     return(
-
       <section id="footer">
         <div className="container">
           <div className="row text-center text-xs-center text-sm-left text-md-left">
@@ -59,6 +58,7 @@ export default class Footer extends React.Component{
           </div>
         </div>
       </section>
+
 
     );
   }

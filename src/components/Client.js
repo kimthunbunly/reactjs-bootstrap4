@@ -3,7 +3,7 @@ import React from 'react';
 export default class Client extends React.Component{
   render(){
     return(
-            <div className="container">
+              <div className="container">
                 <div className="row">
                     <div className="col-lg-12 text-center">
                         <h2 className="section-heading text-uppercase">Our Amazing Team</h2>
@@ -89,5 +89,5 @@ export default class Client extends React.Component{
                         <p className="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
                     </div>
                 </div>
-            </div>
+              </div>
 ); } }

@@ -5,17 +5,16 @@ export default class Signin extends React.Component{
     return(
             <form className="form-horizontal form-center">
                 <div className="row">
-                    <div className="col-md-3"></div>
-                    <div className="col-md-6">
+                    <div className="col-md-12">
                         <h2>Register New User</h2>
                         <hr/>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-3 field-label-responsive">
+                    <div className="col-md-4 field-label-responsive">
                         <label htmlFor="name">Name</label>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-8">
                         <div className="form-group">
                             <div className="input-group mb-2 mr-sm-2 mb-sm-0">
                                 <div className="input-group-addon" style={{width: "2.6rem"}}><i className="fa fa-user"></i></div>
@@ -25,10 +24,10 @@ export default class Signin extends React.Component{
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-3 field-label-responsive">
+                    <div className="col-md-4 field-label-responsive">
                         <label htmlFor="email">E-Mail Address</label>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-8">
                         <div className="form-group">
                             <div className="input-group mb-2 mr-sm-2 mb-sm-0">
                                 <div className="input-group-addon" style={{width: "2.6rem"}}><i className="fa fa-at"></i></div>
@@ -38,10 +37,10 @@ export default class Signin extends React.Component{
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-3 field-label-responsive">
+                    <div className="col-md-4 field-label-responsive">
                         <label htmlFor="password">Password</label>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-8">
                         <div className="form-group has-danger">
                             <div className="input-group mb-2 mr-sm-2 mb-sm-0">
                                 <div className="input-group-addon" style={{width: "2.6rem"}}><i className="fa fa-key"></i></div>
@@ -51,10 +50,10 @@ export default class Signin extends React.Component{
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-3 field-label-responsive">
+                    <div className="col-md-4 field-label-responsive">
                         <label htmlFor="password">Confirm Password</label>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-8">
                         <div className="form-group">
                             <div className="input-group mb-2 mr-sm-2 mb-sm-0">
                                 <div className="input-group-addon" style={{width: "2.6rem"}}>
@@ -66,8 +65,7 @@ export default class Signin extends React.Component{
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-3"></div>
-                    <div className="col-md-6">
+                    <div className="col-md-8">
                         <button type="submit" className="btn btn-success"><i className="fa fa-user-plus"></i> Register</button>
                     </div>
                 </div>

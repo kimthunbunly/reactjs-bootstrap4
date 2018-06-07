@@ -12,7 +12,6 @@ import Client from './Client';
 export default class Home extends React.Component {
   render() {
     return (
-            <div>
                 <div className="home">
                     <Navbar/>
                     <div className="container">
@@ -33,24 +32,29 @@ export default class Home extends React.Component {
                                 </a>
                             </div>
                         </div>
-                        <div className="collapse" id="login">
-                            <div className="card card-body">
-                                <Login/>
+                        <div className="row justify-content-md-center">
+                          <div className="col-">
+                            <div className="collapse" id="login">
+                                <div className="card card-body">
+                                    <Login/>
+                                </div>
                             </div>
-                        </div>
-                        <div className="collapse" id="signin">
-                            <div className="card card-body">
-                                <Signin/>
+                          </div>
+                          <div className="col-">
+                            <div className="collapse" id="signin">
+                                <div className="card card-body">
+                                    <Signin/>
+                                </div>
                             </div>
+                          </div>
                         </div>
-                    </div>
-                </div>
+                  </div>
                 <Service/>
                 <Card/>
                 <br/>
                 <Client/>
                 <Contact/>
                 <Footer/>
-            </div>
+              </div>
 
 ); } }
