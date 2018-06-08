@@ -12,6 +12,7 @@ import Client from './Client';
 export default class Home extends React.Component {
   render() {
     return (
+            <div>
                 <div className="home">
                     <Navbar/>
                     <div className="container">
@@ -49,6 +50,7 @@ export default class Home extends React.Component {
                           </div>
                         </div>
                   </div>
+                </div>
                 <Service/>
                 <Card/>
                 <br/>

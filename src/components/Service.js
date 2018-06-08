@@ -5,7 +5,6 @@ export default class Service extends React.Component{
   render(){
     return(
               <div className="service">
-                <br/>
                 <div className="container">
                 <br/>
                     <h1>SERVICS</h1>
@@ -26,6 +25,7 @@ export default class Service extends React.Component{
                               </span>
                             <h4 className="service-heading">Responsive Design</h4>
                             <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                            <br/>
                         </div>
                         <div className="col-md-4">
                             <span className="fa-stack fa-4x">

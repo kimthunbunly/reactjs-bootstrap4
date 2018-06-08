@@ -151,17 +151,18 @@ section .section-title {
 
 .layout-card {
     background-color: #d6dce2;
-    height: 56vh;
+    background-repeat: no-repeat;    
+    height: auto;
     margin: 0px auto;
 }
 .card {
-    margin: 5vh 2vh auto 2vh;
+    margin: 5vh 2vh 5vh 2vh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .home {
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-image: linear-gradient(to right, rgb(255, 195, 113) 0px, rgb(255, 95, 109) 100%);
     position: relative;
     background-repeat: repeat-x;
@@ -170,9 +171,9 @@ section .section-title {
 .service {
     margin: 3vh auto 3vh auto;
     width: 80%;
-    height: 45vh;
+    height: auto;
     text-align: center;
-    background-color: #FFF;
+    background-color: #FFF no-repeat;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -198,7 +199,8 @@ section .section-title {
 }
 
 .contact {
-    margin: 5vh auto 5vh auto;
+    margin: 5vh 2vh 5vh 2vh;
+    height: auto;
 }
 
 .col-lg-offset-2 {
@@ -206,9 +208,8 @@ section .section-title {
 }
 
 @media only screen and (max-width: 1540px) {
-    .service {
-        height: 75vh;
-    }
-    .layout-card {
-    height: 80vh;}
+
+}
+@media only screen and (max-width: 950px) {
+ 
 }
