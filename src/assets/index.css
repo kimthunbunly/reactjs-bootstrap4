@@ -204,3 +204,11 @@ section .section-title {
 .col-lg-offset-2 {
     margin: 0px auto auto;
 }
+
+@media only screen and (max-width: 1540px) {
+    .service {
+        height: 75vh;
+    }
+    .layout-card {
+    height: 80vh;}
+}
